@@ -216,6 +216,7 @@ export default function NewCampaign() {
                       <Alert status="warning">
                         <AlertIcon />
                         <AlertDescription mr={2}>
+                          {wallet.status}
                           Please Connect Your Wallet First to Create a Campaign
                         </AlertDescription>
                       </Alert>

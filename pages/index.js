@@ -36,7 +36,7 @@ import { FcShare, FcDonate, FcMoneyTransfer } from "react-icons/fc";
 export async function getServerSideProps(context) {
   const campaigns = await factory.methods.getDeployedCampaigns().call();
 
-  console.log(campaigns);
+  console.log("campaigns: ",campaigns);
 
   return {
     props: { campaigns },
