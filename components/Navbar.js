@@ -74,6 +74,8 @@ export default function NavBar() {
                 }}
               >
                 <NextLink href="/">🤝BetterFund</NextLink>
+                {/* <NextLink href="/">Omega Funds</NextLink> */}
+
               </Box>
             </Heading>
           </Flex>
